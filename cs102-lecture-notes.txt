@@ -1,0 +1,14 @@
+1. Once you have the repository, you can create folders and files in the local repostory folder and then you can stage (add) to the repository.
+      git add file_name.extension 
+      
+2. To add all files in the current directory
+      git add .
+      
+3. To see the current status of the repository, run the following
+      git status
+      
+4. We now commit changes. That means the current state of the files/folders will be stored in the git repository permanently.
+      git commit -m "type a message to name the changes"
+      
+5. Once the changes are committed it can be pushed to the server repository
+      git push origin main
